@@ -12,6 +12,17 @@
             background: #f4f8fb;
             color: #333;
         }
+        .navbar {
+            background: #3498db;
+            padding: 15px;
+            text-align: center;
+        }
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 15px;
+        }
         .container {
             max-width: 800px;
             margin: 40px auto;
@@ -53,48 +64,58 @@
     </style>
 </head>
 <body>
+    <div class="navbar">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#hackathons">Hackathons</a>
+        <a href="#skills">Skills</a>
+        <a href="#internships">Internships</a>
+        <a href="#experience">Experience</a>
+    </div>
+    
     <div class="container">
         <h1>Piyo Licira</h1>
         <p>Email: <a href="mailto:piyoliciraj.25cs@licet.ac.in">piyoliciraj.25cs@licet.ac.in</a></p>
         <p>Phone: 8778707949</p>
         <p><a href="https://www.linkedin.com/in/piyo-licira-3b3360250/">LinkedIn</a> | <a href="https://github.com/PiyoLicira">GitHub</a></p>
         
-        <div class="section">
+        <div id="about" class="section">
             <h2>About Me</h2>
             <p>Final-year engineering student passionate about web design and front-end development. Dedicated to creating engaging and user-friendly interfaces.</p>
         </div>
         
-        <div class="section">
+        <div id="education" class="section">
             <h2>Education</h2>
             <p><strong>Loyola-ICAM College of Engineering and Technology</strong><br>
             B.E. Computer Science and Engineering (2021-2025) | CGPA: 7.5 (5th Semester)</p>
         </div>
         
-        <div class="section">
+        <div id="projects" class="section">
             <h2>Projects</h2>
             <p><strong>Medicine Reminder App:</strong> Developed an app that sends notifications to remind patients to take medicine on time.</p>
         </div>
         
-        <div class="section">
+        <div id="hackathons" class="section">
             <h2>Hackathons & Competitions</h2>
             <p><strong>Smart India Hackathon 2023:</strong> Presented an idea on Hazardous Cleaning of Septic Tanks.</p>
             <p><strong>Case Study Event - PALS:</strong> 2nd Runner-Up for displaying various landmarks (hospitals, schools, metro stations, etc.) within a specified radius using Google Maps and what3words location.</p>
         </div>
         
-        <div class="section">
+        <div id="skills" class="section">
             <h2>Skills</h2>
             <p><strong>Programming:</strong> Java, SQL<br>
             <strong>Web Development:</strong> HTML5, CSS, JavaScript<br>
             <strong>Tools:</strong> Android Studio, Figma, Visual Studio, WordPress, Canva</p>
         </div>
         
-        <div class="section">
+        <div id="internships" class="section">
             <h2>Internships</h2>
             <p><strong>Hanons Automotive Systems:</strong> Learned VBA coding for Excel automation.<br>
             <strong>Web Design Internship:</strong> Designed a website using WordPress and Figma.</p>
         </div>
         
-        <div class="section">
+        <div id="experience" class="section">
             <h2>Experience</h2>
             <p>Mentored 1st-year students on the project <strong>Drunk and Driver</strong>.</p>
             <p>Completed certifications in <strong>RedHat Enterprise Linux Automation with Ansible (RH294)</strong> and <strong>Google Cloud Computing Foundations (GCCF)</strong>.</p>
